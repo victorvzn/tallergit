@@ -21,7 +21,7 @@ $ git
 
 # Repositorio remoto
 
-$ git
+$ git clone <url_repository>
 $ git
 $ git
 $ git
