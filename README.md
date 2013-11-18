@@ -16,7 +16,26 @@ Resumen de comandos
     $ git reset --hard <commit_id> # Reset de commit sin retorno
     $ git status
     $ git show <commit_id> # Lista los cambios en este commit
-    $ git
+    $ git diff # cambios actuales en wl working área
+    $ dig diff --cached # cambios en el staging área
+    $ git diff HEAD cambios en ambas áreas
+
+    #
+    $ git tag v1.0
+
+    # Herramienta para ver todo el historial de commits
+    $ gitk
+
+    # Ramas (branches)
+
+    $ git branch # lsta los branch
+    $ git branch <branch_name> # crea un nuevo branch
+    $ git branch -b <branch_name> # crea un nuevo branch y cambiamos a este
+    $ git checkout <branch_name> # cambiamos de branch
+
+    # Merge
+
+    $
 
 ## Repositorio remoto
 
