@@ -1,10 +1,9 @@
 Taller GIT & GITHUB
 ===================
 
-Resumen de comandos
-===================
+## Resumen de comandos
 
-# Repositorio local
+## Repositorio local
 
     $ git init
     $ git add [.|<file(s)_name>]
@@ -19,20 +18,19 @@ Resumen de comandos
     $ git show <commit_id> # Lista los cambios en este commit
     $ git
 
-# Repositorio remoto
+## Repositorio remoto
 
     $ git clone <url_repository>
     $ git remote -v
     $ git push origin master
     $ git
 
-# Herramientas online
+## Herramientas online
 
     GITHUB / GITLAB
 
 
 Ejercicio
-=========
 
     $ cd /home/projects/
     $ mkdir websitepro
