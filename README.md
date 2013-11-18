@@ -35,7 +35,7 @@ Resumen de comandos
 
     # Merge
 
-    $
+    $ git merge
 
 ## Repositorio remoto
 
