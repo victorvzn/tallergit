@@ -1,7 +1,7 @@
 Taller GIT & GITHUB
 ===================
 
-## Resumen de comandos
+Resumen de comandos
 
 ## Repositorio local
 
