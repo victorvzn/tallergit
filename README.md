@@ -30,7 +30,7 @@ Resumen de comandos
     GITHUB / GITLAB
 
 
-Ejercicio
+## Ejercicio
 
     $ cd /home/projects/
     $ mkdir websitepro
