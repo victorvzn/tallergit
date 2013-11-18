@@ -22,8 +22,8 @@ $ git
 # Repositorio remoto
 
 $ git clone <url_repository>
-$ git
-$ git
+$ git remote -v
+$ git push origin master
 $ git
 
 # Herramientas online
