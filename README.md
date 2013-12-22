@@ -53,15 +53,15 @@ Resumen de comandos
 
 Creamos un directorio para el nuevo repositorio:
 
-$ cd /home/projects/
-$ mkdir websitepro
-$ cd websitepro
+    $ cd /home/projects/
+    $ mkdir websitepro
+    $ cd websitepro
 
-$ git init
+    $ git init
 
-$ touch demo.txt
-$ nano demo.txt
-primera línea
-$ git add demo.txt
+    $ touch demo.txt
+    $ nano demo.txt
+    primera línea
+    $ git add demo.txt
 
     
