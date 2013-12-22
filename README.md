@@ -1,7 +1,41 @@
 Taller GIT & GITHUB
 ===================
 
-Resumen de comandos
+Resumen de comandos y ejemplos
+
+## Configuración de Git 
+
+    $ git config --global user.name "Victor Villazon"
+    $ git config --global user.email "victor@vizonideas.com"
+
+## Instalar SSH Key para vincular nuestro computador local con github
+
+    $ ssh-keygen
+
+      Generating public/private rsa key pair.
+      Enter file in which to save the key (/home/you/.ssh/id_rsa)
+
+      Enter passphrase (empty for no passphrase): [Password]
+      Enter same passphrase again: [Repeat password]
+
+      Your identification has been saved in /home/you/.ssh/id_rsa.
+      Your public key has been saved in /home/you/.ssh/id_rsa.pub.
+      The key fingerprint is:
+      01:02:f3:34:c5:85:d6:37:d1:1d:a0:18:3d:00:e8:bd emailname@email.com
+
+    $ cd .ssh
+    $ nano id_rsa.pub
+      --- Copiar estos dígitos en la configuración de github,
+      --- Account Settings > SSH Keys
+      --- Add SSH Key and paste
+
+    ** Comprobamos si estamos vinculados con github
+   
+    $ ssh -T git@github.com
+   
+    Hi username! You've successfully authenticated, but GitHub does not
+    provide shell access.
+
 
 ## Repositorio local
 
@@ -44,6 +78,15 @@ Resumen de comandos
     $ git remote -v
     $ git push origin master
     $ git
+
+## Verificar versión de git.
+
+    $ git --version
+
+## Ayuda y descripcion de cada comando.
+
+    $ git --help
+    $ git --help status
 
 ## Herramientas online
 
