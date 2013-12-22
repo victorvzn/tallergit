@@ -28,7 +28,7 @@ Resumen de comandos
 
     # Ramas (branches)
 
-    $ git branch # lsta los branch
+    $ git branch # lista los branch disponibles
     $ git branch <branch_name> # crea un nuevo branch
     $ git branch -b <branch_name> # crea un nuevo branch y cambiamos a este
     $ git checkout <branch_name> # cambiamos de branch
@@ -51,8 +51,17 @@ Resumen de comandos
 
 ## Ejercicio
 
-    $ cd /home/projects/
-    $ mkdir websitepro
-    $ cd websitepro
+# Creamos un directorio para el nuevo repositorio:
 
-    $
+$ cd /home/projects/
+$ mkdir websitepro
+$ cd websitepro
+
+$ git init
+
+$ touch demo.txt
+$ nano demo.txt
+primera línea
+$ git add demo.txt
+
+    
