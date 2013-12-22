@@ -51,7 +51,7 @@ Resumen de comandos
 
 ## Ejercicio
 
-# Creamos un directorio para el nuevo repositorio:
+Creamos un directorio para el nuevo repositorio:
 
 $ cd /home/projects/
 $ mkdir websitepro
