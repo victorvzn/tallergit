@@ -3,7 +3,7 @@ Taller GIT & GITHUB
 
 Resumen de comandos y ejemplos
 
-## Configuración de Git 
+## Configuración de Git
 
     $ git config --global user.name "Victor Villazon"
     $ git config --global user.email "victor@vizonideas.com"
@@ -30,9 +30,9 @@ Resumen de comandos y ejemplos
       --- Add SSH Key and paste
 
     ** Comprobamos si estamos vinculados con github
-   
+
     $ ssh -T git@github.com
-   
+
     Hi username! You've successfully authenticated, but GitHub does not
     provide shell access.
 
@@ -88,6 +88,13 @@ Resumen de comandos y ejemplos
     $ git --help
     $ git --help status
 
+## Tricks
+
+01 - Aviso de cambios al servidor
+Settings/Service Hooks >> WebHook URL
+Example URL: https://domain.com/update-github/
+Script on server: git pull origin master
+
 ## Herramientas online
 
     GITHUB / GITLAB
@@ -130,10 +137,10 @@ Ejercicio 04: Clonamos un repositorio remoto ya exitente y trabajamos sobre este
 
     $ git remote -v
     $ git remote add origin https://github.com/victorzn/tallergit.git
-    
+
     $ git push origin master
 
-    
+
 Ejercicio 05: Creamos una Rama (branch), nos movemos a esta y hacemos push al servidor remoto.
 
     $ git branch funcionalidad_n
@@ -162,21 +169,21 @@ Ejercicio 07: Fusionamos la rama 'funcionalidad_n' al branch activo '*master'.
 Ejercicio 08: Resolvemos conflictos de merge entre ramas (branches).
 
     1. Editamos los archivos con conflictos que nos muestra git manualmente.
-   
-    $ nano demo.txt  
+
+    $ nano demo.txt
 
     2. Marcamos como fusionados los archivos con conflictos.
-  
+
     $ git add demo.txt
 
     3. (Opcional) Revisamos los cambios realizados con:
-   
+
     $ git diff <source_branch> <target-branch>
 
     4. Fusionamos los cambios
 
     $ git merge funcionalidad_n
-  
+
 
 Ejercicio 09: Creamos etiquetas para establecer una versión estable de nuestro repositorio.
 
@@ -186,4 +193,9 @@ Ejercicio 09: Creamos etiquetas para establecer una versión estable de nuestro 
     $ git tag 1.0.0 741b6b0b6d
 
 Ejercicio 10:
+
+
+
+-------
+
 
