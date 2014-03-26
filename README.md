@@ -88,6 +88,35 @@ Resumen de comandos y ejemplos
     $ git --help
     $ git --help status
 
+## Como colaborar en un proyecto en github (pull request)
+
+    # 1. Fork some repository with the button FORK (MAIN REPOSITORY)
+    
+    # 2. Localy create a directory for your repository
+    $ mkdir collaborations
+    
+    # 3. Clone the repository (REPOSITORY LOCALY FORKED)
+    $ git --version
+    $ git clone https://github.com/victorzn/tallergit
+    
+    # 4. Verify the conection with the repository
+    $ cd tallergit
+    $ git remote -v
+    origin  https://github.com/victorzn/tallergit.git (fetch)
+    origin  https://github.com/victorzn/tallergit.git (push)
+
+    # 5. Now we can start to make changes and we make a commit to the repository forked
+    $ touch pony.txt
+    $ git status
+    # Untracked files:
+    #   pony.txt
+
+    $ git add -A
+    $ git commit -m "I added the pony.txt file"
+    $ git push origin master
+    username:
+    password:
+
 ## Tricks
 
 01 - Aviso de cambios al servidor
