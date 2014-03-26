@@ -105,7 +105,20 @@ Resumen de comandos y ejemplos
     origin  https://github.com/victorzn/tallergit.git (fetch)
     origin  https://github.com/victorzn/tallergit.git (push)
 
-    # 5. Now we can start to make changes and we make a commit to the repository forked
+    # 5. we connect to the repository original
+    $ git remote add https://github.com/Sfotipy/sfotipy.git
+    origin  https://github.com/victorzn/tallergit.git (fetch)
+    origin  https://github.com/victorzn/tallergit.git (push)
+    upstream    https://github.com/vizonideas/tallergit.git (fetch)
+    upstream    https://github.com/vizonideas/tallergit.git (push)
+
+    # 6. We update the master branch localy with the origin repository
+    $ git pull -r upstream master
+
+    # 7. We created a branch to avoid losing changes
+    $ git checkout -b my-collaborations
+
+    # 8. Now we can start to make changes and we make a commit to the repository forked
     $ touch pony.txt
     $ git status
     # Untracked files:
