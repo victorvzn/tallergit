@@ -112,7 +112,7 @@ Resumen de comandos y ejemplos
     upstream    https://github.com/vizonideas/tallergit.git (fetch)
     upstream    https://github.com/vizonideas/tallergit.git (push)
 
-    # 6. We update the master branch localy with the origin repository
+    # 6. We sync the master branch local with the two origin repositories
     $ git pull -r upstream master
 
     # 7. We created a branch to avoid losing changes
